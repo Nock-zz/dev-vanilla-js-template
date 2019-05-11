@@ -12,10 +12,13 @@ Finally you must use the express web server to display the data in the browser a
 
 ### Installation steps
 1. Clone the repository
+
 2. delete .git with:
 
   ````rm -rf .git````
 3. Use ````ln -s source_dir target_dir```` to attach the development directory to the web server public directory
+
 4. Start the web server in the express-server directory with ````node server.js````
-4. Launch the html via localhost with:
+
+5. Launch the html via localhost with:
 ````https://localhost:8080/target_dir/````
